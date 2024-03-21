@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Sura:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+.text-header {
+    font-size: 48px;
+    font-family: "Charmonman", cursive;
+    margin-top: 20px;
+}
+
+nav {
+    height: 75px;
+}
