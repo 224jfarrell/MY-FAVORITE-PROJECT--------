@@ -1,16 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Sura:wght@400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    background-color: #ffffee !important;
+}
+
 html {
     max-width: 1920px;
     overflow-x: hidden;
 }
 
+
 .text-header {
     font-size: 48px;
     font-family: "Charmonman", cursive;
     margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #003d88;
+    animation-name: gradient;
+    animation-duration: 7500ms;
+    animation-iteration-count: infinite;
+    background-color: #808080;
+    border-radius: 33px;
 }
 
-nav {
+@keyframes gradient {
+    0% {
+        color: #003d88;
+    }
+    20% {
+        color: #fcd955;
+    }
+    40% {
+        color: #d92323
+    }
+    60% {
+        color: #ffffff;
+    }
+    80% {
+        color: #007a3a;
+    }
+    100% {
+        color: #003d88;
+    }
+}
+
+nav.navbar {
     height: 75px;
+    background-color: #ffffdd !important;
 }
