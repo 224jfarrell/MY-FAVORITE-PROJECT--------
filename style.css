@@ -49,3 +49,15 @@ nav.navbar {
     height: 75px;
     background-color: #ffffdd !important;
 }
+
+#header {
+    background-image: linear-gradient(to bottom, #00000000 90%, #ffffee 90%), url(img/Screenshot\ 2024-03-26\ 083533.png);
+    background-size: contain;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+a.navbar-brand > img {
+    width: 50px;
+    border-radius: 50px;
+}
