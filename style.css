@@ -11,37 +11,80 @@ html {
 
 
 .text-header {
-    font-size: 48px;
+    font-size: 60px;
     font-family: "Charmonman", cursive;
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #003d88;
-    animation-name: gradient;
+    color: #163f72;
+    animation-name: gradient, gradient-2;
     animation-duration: 7500ms;
     animation-iteration-count: infinite;
-    background-color: #808080;
+    background-color: #fcd955;
     border-radius: 33px;
+}
+
+.text-subheader {
+    font-size: 48px;
+    font-family: "Sura", serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #163f72;
+    animation-name: gradient, gradient-2;
+    animation-duration: 240000ms;
+    animation-iteration-count: infinite;
+    border-radius: 33px;
+    width: 50%;
+    background-color: #404040;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.text-content {
+    font-family: "Work Sans", sans-serif;
+    line-height: 70px;
 }
 
 @keyframes gradient {
     0% {
-        color: #003d88;
+        color: #163f72;
     }
     20% {
-        color: #fcd955;
+        color: #e0c971;
     }
     40% {
-        color: #d92323
+        color: #bb4141
     }
     60% {
         color: #ffffff;
     }
     80% {
-        color: #007a3a;
+        color: #14663b;
     }
     100% {
-        color: #003d88;
+        color: #163f72;
+    }
+}
+
+@keyframes gradient-2 {
+    0% {
+        background-color: #fcd955;
+    }
+    20% {
+        background-color: #d92323
+    }
+    40% {
+        background-color: #ffffff;
+    }
+    60% {
+        background-color: #007a3a;
+    }
+    80% {
+        background-color: #003d88;
+    }
+    100% {
+        background-color: #fcd955;
     }
 }
 
@@ -60,4 +103,8 @@ nav.navbar {
 a.navbar-brand > img {
     width: 50px;
     border-radius: 50px;
+}
+
+.col.col-5 > img, .col.col-4 > img {
+    width: 90%;
 }
