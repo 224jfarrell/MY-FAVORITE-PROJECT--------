@@ -115,7 +115,7 @@ nav.navbar {
 }
 
 #header {
-    background-image: linear-gradient(to bottom, #00000000 90%, #ffffee 90%), url(img/undp-seychelles-undp-victoria-from-heights-3.jpg);
+    background-image: linear-gradient(to bottom, #00000000 50%, #ffffee 90%), url(img/undp-seychelles-undp-victoria-from-heights-3.jpg);
     background-size: cover;
     padding-top: 300px;
     padding-bottom: 300px;
